@@ -10,3 +10,8 @@
 <p>I created the maven project using this command: </p>
 mvn archetype:generate -DgroupId=com.rogerserra -DartifactId=my-app -DarchetypeArtifactId=micro-streaming-analytics -DarchetypeVersion=1.4 -DinteractiveMode=false
 <p>Next, I edited the main pom, that will serve as a dependency manager for all my java modules (microservices).</p>
+
+## MICROSERVICE 1: PRODUCER
+<p>This module/microservice will send jsons to an exchange, that will route the message to different queues.</p>
+
+
