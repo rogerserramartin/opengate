@@ -16,7 +16,7 @@ public class ProducerService {
         this.rabbitTemplate = rabbitTemplate;
     }
 
-    @Value("${spring.rabbitmq.exchange}") // these values come from application.properties/yml
+    @Value("${spring.rabbitmq.exchange}")
     private String exchange; // exchange is responsible for routing the messages to different queues
 
     @Value("${spring.rabbitmq.routingkey}")

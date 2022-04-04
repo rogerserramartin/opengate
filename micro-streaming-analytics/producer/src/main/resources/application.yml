@@ -6,8 +6,8 @@ spring:
     password: guest
     port: 15672
     username: guest
-    exchange: user.exchange       # ${} java
-    queue: user.queue             #
-    routingkey: user.routingkey   #
+    exchange: request.exchange       # ${} java
+    queue: request.queue             #
+    routingkey: request.routingkey   #
 server:
   port: 9091
